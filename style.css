@@ -92,8 +92,15 @@ a:hover {
 .program {
     background-color: #E7E9EF;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     width: 45%;
+}
+.program a {
+    color: black;
+    font-size: 24px;
+}
+.program a:hover {
+color: #FC4C00;
 }
 h1 {
     text-align: center;
