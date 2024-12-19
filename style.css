@@ -14,7 +14,7 @@
 .navigation {
     background-color: #FC4C00;
     padding: 0.5px;
-    border-radius: 35px;
+    border-radius: 20px;
 }
 
 .logo_text {
@@ -54,7 +54,7 @@ width: 70%;
 }
 .country {
     background-color: #EDEDED;
-    border-radius: 35px;
+    border-radius: 20px;
     padding: 10px;
 }
 a {
@@ -76,13 +76,13 @@ a:hover {
 }
 
 .lesson {
-    border-radius: 30px;
+    border-radius: 20px;
 
 }
 .o_kafedra {
     background-color: #E7E9EF;
     padding: 20px 70px 50px 70px;
-    border-radius: 35px;
+    border-radius: 20px;
 }
 .programs {
     display: flex;
@@ -91,8 +91,9 @@ a:hover {
 }
 .program {
     background-color: #E7E9EF;
-    border-radius: 35px;
+    border-radius: 20px;
     padding: 10px 30px;
+    width: 45%;
 }
 h1 {
     text-align: center;
@@ -106,7 +107,7 @@ h1 {
     background-color: #E7E9EF;
     display: flex;
     width: 650px;
-    border-radius: 35px;
+    border-radius: 20px;
     padding: 20px 30px;
 }
 .glava {
@@ -176,7 +177,7 @@ footer {
     height: 5px;
     width: 30px;
     background-color: black;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .burger {
     display: none;
@@ -248,6 +249,9 @@ button {
     line-height: 30px;
     transition: 1.5s ease-in-out;
 }
+.menu_scroll {
+    color: #FC4C00;
+}
 .menu_burger :hover {
     color: #FC4C00;
     transition: 0.3s ease-in-out;
@@ -280,9 +284,7 @@ strong {
     justify-content: center;
     gap: 50px;
 }
-.menu_scroll {
-    color: #FC4C00;
-}
+
 @media(max-Width: 426px) {
 .Block_6 {
     background-image: none;
@@ -394,5 +396,8 @@ select {
     width: 95%;
     border: 0;
     background-color: #E7E9EF;
+}
+.program {
+    width: 82%;
 }
 }
