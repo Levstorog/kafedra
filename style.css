@@ -293,6 +293,10 @@ strong {
 }
 
 @media(max-Width: 426px) {
+.program a {
+    color: black;
+    font-size: 15px;
+}
 .Block_6 {
     background-image: none;
     padding: 10px 15px;
