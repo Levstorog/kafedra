@@ -280,7 +280,9 @@ strong {
     justify-content: center;
     gap: 50px;
 }
-
+.menu_scroll {
+    color: #FC4C00;
+}
 @media(max-Width: 426px) {
 .Block_6 {
     background-image: none;
