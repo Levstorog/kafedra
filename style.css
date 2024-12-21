@@ -1,0 +1,418 @@
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu a {
+    transition: 0.3s;
+}
+.menu a:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.navigation {
+    background-color: #FC4C00;
+    padding: 0.5px;
+    border-radius: 20px;
+}
+
+.logo_text {
+    color: #C5C5C5;
+}
+.logo {
+    width: 200px;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_logo {
+    display: flex;
+    gap: 50px;
+
+}
+html {
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+margin: 0;
+padding: 0;
+width: 70%;
+}
+.rus {
+    width: 40px;
+}
+.country {
+    background-color: #EDEDED;
+    border-radius: 20px;
+    padding: 10px;
+}
+a {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+a:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.o_kafedra1 {
+    display: flex;
+    gap: 30px;
+}
+
+.lesson {
+    border-radius: 20px;
+
+}
+.o_kafedra {
+    background-color: #E7E9EF;
+    padding: 20px 70px 50px 70px;
+    border-radius: 20px;
+}
+.programs {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.program {
+    background-color: #E7E9EF;
+    border-radius: 20px;
+    padding: 15px 30px;
+    width: 45%;
+}
+.program a {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+.program a:hover {
+color: #FC4C00;
+}
+h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.block_teacher {
+    background-color: #E7E9EF;
+    display: flex;
+    width: 650px;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.glava {
+    display: flex;
+    justify-content: center;
+}
+.block_teacher img {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.live {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.live img {
+    width: 200px;
+}
+.Block_4 {
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+footer {
+    background-color: #FC4C00;
+    border-radius: 35px 35px 0 0;
+    max-width: 100%;
+    position: absolute;
+    left: 0px;
+    padding: 30px 0 0px 30px;
+    display: flex;
+    color: white;
+    gap: 150px;
+    overflow: hidden;
+}
+
+.sem {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.Block_3_modile {
+    display: none;
+}
+.col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hide {
+    display: block;
+}
+.ok {
+    display: none;
+}
+.ok_footer {
+    display: none;
+}
+.bur {
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+.burger {
+    display: none;
+    flex-direction: column;
+    row-gap: 5px;
+    border: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 1;
+}
+.one {
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.3s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    width: 95%;
+}
+.two {
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.3s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    width: 95%; 
+}
+.three {
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.3s ease;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    width: 95%; 
+}
+
+.s {
+    line-height: 30px;
+}
+.m {
+    line-height: 10px;
+}
+button {
+    border: 0;
+    padding: 0;
+}
+
+.arrow {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+}
+.list {
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    width: 94%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.menu_burger {
+    height: 0px;
+    overflow: hidden;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #E7E9EF;
+    width: 100%;
+    transition: 1.5s;
+    padding: 0 0 0 150px;
+    line-height: 30px;
+    transition: 1.5s ease-in-out;
+}
+.menu_scroll {
+    color: #FC4C00;
+}
+.menu_burger :hover {
+    color: #FC4C00;
+    transition: 0.3s ease-in-out;
+}
+strong {
+    background-color: #FC4C00;
+    color: white;
+    padding: 0 0 5px 0;
+
+
+}
+.zagagulina_footer {
+    position: absolute;
+    bottom: -75px;
+    left: -75px;
+}
+.Block_6 {
+    background-color: #FC4C00;
+    background-image: url("./img/backgrund.svg");
+    background-size: 100%;
+    border-radius: 20px;
+    color: white;
+    margin: 0 0 50px 0;
+    width: 90%;
+    padding: 100px 50px;
+    overflow: hidden;
+}
+.voprosi {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media(max-Width: 426px) {
+.program a {
+    color: black;
+    font-size: 15px;
+}
+.Block_6 {
+    background-image: none;
+    padding: 10px 15px;
+    width: 370px;
+}
+.voprosi {
+    gap: 30px;
+}
+.Block_6 a {
+    gap: 30px;
+    font-size: 13px;
+}
+.burger {
+    display: flex;
+}
+.menu_burger {
+    display: block;
+}
+    footer {
+        width: 100%;
+    }
+.lesson {
+    border-radius: 30px 30px 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.ok_footer {
+    display: block;
+    width: 93%;
+}
+.ok_footer button {
+    background-color: #E7E9EF;
+}
+.hide_footer {
+    display: none;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_teacher {
+    width: 120%;
+}
+.live {
+    gap: 0;
+}
+.block_teacher img {
+height: 200px;
+}
+.qr {
+    display: none;
+}
+.Block_3 {
+    display: none;
+}
+.Block_3_modile {
+    display: block;
+}
+
+.programs {
+    flex-direction: column;
+    row-gap: 20px;
+}
+.left_logo {
+    display: block;
+}
+html {
+    display: block;
+    margin: 15px;
+}
+.Block_1, .Block_2, .Block_3, .Block_4, .Block_5 {
+    width: 145%;
+}
+
+.hide {
+    display: none;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+}
+.menu, .navigation {
+ display: none;   
+} 
+.o_kafedra1 {
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+.o_kafedra {
+    padding: 10px;
+}
+.o_kafedra p {
+    text-align: center;
+}
+.ok {
+    display: block;
+}
+option {
+    width: 200px;
+}
+select {
+    width: 95%;
+    border: 0;
+    background-color: #E7E9EF;
+}
+.program {
+    width: 82%;
+}
+}
