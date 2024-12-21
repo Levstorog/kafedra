@@ -195,7 +195,7 @@ footer {
     position: absolute;
     right: 20px;
     top: 20px;
-    opacity: 1;
+    background-color: white;
 }
 .one {
     overflow: hidden;
@@ -254,10 +254,9 @@ button {
     left: 0;
     background-color: #E7E9EF;
     width: 100%;
-    transition: 1.5s;
-    padding: 0 0 0 150px;
     line-height: 30px;
     transition: 1.5s ease-in-out;
+    padding-left: 30%;
 }
 .menu_scroll {
     color: #FC4C00;
