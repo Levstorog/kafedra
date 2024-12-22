@@ -116,7 +116,7 @@ h1 {
     display: flex;
     width: 650px;
     border-radius: 20px;
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 .glava {
     display: flex;
@@ -293,7 +293,9 @@ strong {
     justify-content: center;
     gap: 50px;
 }
-
+.okk {
+    display: none;
+}
 @media(max-Width: 426px) {
 .program a {
     color: black;
@@ -348,9 +350,7 @@ strong {
 .live {
     gap: 0;
 }
-.block_teacher img {
-height: 200px;
-}
+
 .qr {
     display: none;
 }
@@ -413,5 +413,34 @@ select {
 }
 .program {
     width: 82%;
+}
+
+
+.Block_4 img {
+    width: 150px;
+}
+.Block_4 p {
+    width: 150px;
+}
+.Block_6 {
+    width: 130%;
+}
+.okk {
+    display: block;
+}
+.no_okk {
+    display: none;
+}
+.block_teacher img {
+    width: 160px;
+    height: 200px;
+    margin: 0;
+}
+.block_img {
+    display: flex;
+    justify-content: center;
+}
+.block_teacher p {
+    text-align: center;
 }
 }
